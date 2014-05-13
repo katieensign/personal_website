@@ -3,7 +3,7 @@
 /* Padding below the footer and lighter body text */
 
 body {
-  padding-bottom: 40px;
+  padding-bottom: 30px;
   color: #f0f0f0;
   background-color: #202020;
 }
@@ -35,7 +35,7 @@ body {
 }
 .navbar-wrapper .navbar-brand {
   color: #f0f0f0;
-  font-size: 65px;
+  font-size: 50px;
   font-weight: 300;
 }
 
@@ -170,10 +170,10 @@ body {
   }
 
   .featurette-heading {
-    font-size: 50px;
+    font-size: 40px;
   }
   h1 {
-    font-size: 65px;
+    font-size: 45px;
   }
 }
 
@@ -182,3 +182,21 @@ body {
     margin-top: 0px;
   }
 }
+
+@font-face {
+  font-family: 'Conv_HumanoidStraight';
+  src: url('fonts/HumanoidStraight.eot');
+  src: local('☺'), url('fonts/HumanoidStraight.woff') format('woff'), url('fonts/HumanoidStraight.ttf') format('truetype'), url('fonts/HumanoidStraight.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.relativity {
+  text-align: right;
+  text-shadow: none; 
+  font-family: 'Conv_HumanoidStraight' !important;
+  font-weight: 300;
+  line-height: 1;
+
+}
+
