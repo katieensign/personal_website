@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'DymaxionScriptRegular';
+    src: url('dymaxionscript.eot');
+    src: url('dymaxionscript.eot') format('embedded-opentype'),
+         url('dymaxionscript.woff') format('woff'),
+         url('dymaxionscript.ttf') format('truetype'),
+         url('dymaxionscript.svg#DymaxionScriptRegular') format('svg');
+}
