@@ -83,7 +83,17 @@ body {
   height: 500px;
 }
 
+.carousel-indicators {
+  color: #EBE18C;
+}
 
+.carousel-indicators .active {
+  background-color: #EBE18C;
+}
+
+.carousel-indicators li {
+  border: 1px solid #EBE18C;
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
