@@ -5,8 +5,24 @@
 body {
   padding-bottom: 30px;
   font-family: 'VoltaireRegular';
-  color: #EBE18C;
+  color: #EBE6C5;
   background-color: #202020;
+}
+
+footer {
+  bottom:0;
+  width:100%;
+  height:50px;   /* Height of the footer */
+  background:#202020;
+  padding-top: 30px;
+}
+
+.pull-right {
+  margin-top: 7px;
+}
+
+.pull-right a {
+  color: #EBE6C5;
 }
 
 
@@ -25,13 +41,13 @@ body {
 
 /* Flip around the padding for proper display in narrow viewports */
 .navbar-wrapper .container {
-  padding-right: 0;
+  padding-right: 0
   padding-left: 0;
 }
 .navbar-wrapper .navbar {
   padding-right: 15px;
   padding-left: 15px;
-  background-color: rgba(235, 225, 140, 0.5);
+  background-color: rgba(235, 230, 197, 0.5);
   border-color: transparent;
 }
 .navbar-wrapper .navbar-brand {
@@ -44,14 +60,20 @@ body {
   font-weight: 300;
 }
 
-.navbar-wrapper .navbar-text > .navbar-text {
-  color: #EBE18C;
+.navbar-inverse .navbar-nav > li > a, 
+.navbar-inverse .navbar-text {
+  color: #787878; 
+}
+
+.navbar-inverse .navbar-nav > li > a:focus,
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #EBE6C5;
 }
 
 .navbar-wrapper .navbar-nav > .active > a,
 .navbar-wrapper .navbar-nav > .active > a:hover,
 .navbar-wrapper .navbar-nav > .active > a:focus {
-  color: #448D7A;
+  color: #787878;
   background-color: transparent;
 }
 
@@ -67,7 +89,7 @@ body {
 .carousel-caption {
   z-index: 10;
   font-weight: normal;
-  color: #EBE18C;
+  color: #EBE6C5;
 }
 
 /* Declare heights because of positioning of img element */
@@ -84,15 +106,15 @@ body {
 }
 
 .carousel-indicators {
-  color: #EBE18C;
+  color: #EBE6C5;
 }
 
 .carousel-indicators .active {
-  background-color: #EBE18C;
+  background-color: #EBE6C5;
 }
 
 .carousel-indicators li {
-  border: 1px solid #EBE18C;
+  border: 1px solid #EBE6C5;
 }
 
 /* MARKETING CONTENT
@@ -124,6 +146,7 @@ body {
 
 .featurette-divider {
   margin: 0;
+  border-color: #EBE6C5;
 }
 
 /* Thin out the marketing headings */
