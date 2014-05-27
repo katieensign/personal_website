@@ -47,7 +47,7 @@ footer {
 .navbar-wrapper .navbar {
   padding-right: 15px;
   padding-left: 15px;
-  background-color: rgba(235, 230, 197, 0.5);
+  background-color: rgba(235, 230, 197, 1);
   border-color: transparent;
 }
 .navbar-wrapper .navbar-brand {
@@ -67,7 +67,7 @@ footer {
 
 .navbar-inverse .navbar-nav > li > a:focus,
 .navbar-inverse .navbar-nav > li > a:hover {
-  color: #EBE6C5;
+  color: #448D7A;
 }
 
 .navbar-wrapper .navbar-nav > .active > a,

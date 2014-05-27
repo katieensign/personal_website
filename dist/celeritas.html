@@ -7,7 +7,7 @@
     <meta name="description" content="Craft Brewery in Austin, Tx">
     <meta name="author" content="Katie Ensign">
     <link rel="icon" href="../../assets/ico/favicon.ico">
-    <link href="font-awesome-4.0.3/css/font-awesome.min.css" rel="stylesheet">
+    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
     <title>
       Celeritas Brewing
@@ -25,7 +25,7 @@
     <div class="navbar-wrapper">
       <div class="container">
 
-        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
           <div class="container">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -40,6 +40,7 @@
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li class="active"><a href="#">home</a></li>
+                <li><a href="#team">the team</a></li>
                 <li><a href="#about">about</a></li>
                 <li><a href="#process">our process</a></li>
                 <li><a href="#contact">contact</a></li>
@@ -56,19 +57,20 @@
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active" style="color:#448D7A"></li>
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
         <li data-target="#myCarousel" data-slide-to="3"></li>
         <li data-target="#myCarousel" data-slide-to="4"></li>
+        <li data-target="#myCarousel" data-slide-to="5"></li>
       </ol>
       <div class="carousel-inner">
         <div class="item active" style="background: none repeat scroll 0 0 #EBE6C5"; alt="First slide">
           <div class="container">
-            <div class="carousel-caption" style="color: #448D7A">
-              <i class="fa fa-eye" style="color: #5D7B93; font-size: 20em"></i>
-              <h1>melange</h1>
-              <p>a dry saison to satisfy even the thirstiest fremen</p>
+            <div class="carousel-caption" style="color:#448D7A"> 
+              <i class="fa fa-rebel" style="font-size: 15em; color:#DC3F1C"></i>
+              <h1>millenium falconer</h1>
+              <p>an imperial ipa for taking down empires</p>
             </div>
           </div>
         </div>
@@ -82,7 +84,16 @@
             </div>
           </div>
         </div>
-        <div class="item" style="background: none repeat scroll 0 0 #448D7A"; alt="Third slide">
+        <div class="item" style="background: none repeat scroll 0 0 #88A764"; alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <i class="fa fa-eye" style="color: #448D7A; font-size: 20em"></i>
+              <h1>melange</h1>
+              <p>a dry saison to satisfy even the thirstiest fremen</p>
+            </div>
+          </div>
+        </div>
+        <div class="item" style="background: none repeat scroll 0 0 #448D7A"; alt="Fourth slide">
           <div class="container">
             <div class="carousel-caption">
               <i class="fa fa-rocket" style="font-size: 15em"></i>
@@ -91,7 +102,7 @@
             </div>
           </div>
         </div>
-        <div class="item" style="background: none repeat scroll 0 0 #D8A027"; alt="Fourth slide">
+        <div class="item" style="background: none repeat scroll 0 0 #D8A027"; alt="Fifth slide">
           <div class="container">
             <div class="carousel-caption">
               <i class="fa fa-bolt" style="font-size: 15em"></i>
@@ -124,67 +135,81 @@
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
-    <div class="meet">
+    <div class="meet" id="team">
       <div class="container marketing">
         <h1 class="featurette-heading">meet celeritas</h1>
-
+        <br>
         <!-- Three columns of text below the carousel -->
         <div class="row">
           <div class="col-lg-4">
-            <img class="img-circle" src="../img/derek2.png" alt="derek" style="width: 140px; height: 140px;">
+            <img class="img-circle" src="../img/derek.png" alt="derek" style="width: 140px; height: 140px;">
             <h2>derek</h2>
             <p class="lead">the man, the myth, the legend</p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
-            <img class="img-circle" src="../img/katie.png" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+            <img class="img-circle" src="../img/katie.png" alt="katie" style="width: 140px; height: 140px;">
             <h2>katie</h2>
             <p class="lead">the brains behind the organization</p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
-            <img class="img-circle" src="../img/emma.png" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+            <img class="img-circle" src="../img/emma.png" alt="emma" style="width: 140px; height: 140px;">
             <h2>emma</h2>
             <p class="lead">muse, quality control</p>
           </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
+        <p class="lead">
+          Celeritas Brewing was established in Austin, TX in 2013.  A farmhouse  funkmaster (Derek) and a hop head (Katie) came together to create backyard brews. Coincidentally, they also happened to be married.
+        </p>
       </div>
     </div>
 
       <!-- START THE FEATURETTES -->
     <hr class="featurette-divider">
-    <div class="about">
+    <div class="about" id="about">
       <div class="container marketing">
-        <div class="row featurette" id="about">
-          <div class="col-md-7">
+        <div class="row featurette">
+          <div class="col-md-9">
             <h2 class="featurette-heading">about</h2>
             <p class="lead">
-            <i>c</i> in physics refers to the speed of light, or 299,792,458 meters per second, the universal speed limit. The letter <i>c</i> was connected to the latin word <i>celeritas</i>, or swiftness, by the great science fiction author Isaac Asimov in 1959. In the minds of physicists and science fiction authors, the speed of light represents something sacred. In physics, it is an unattainable dream for humans to travel at this speed, that according to Einstein would cause time itself to warp around us. In fiction, travelling at this speed has provided a gateway to the far reaches of the universe, and a connection to other intelligences. At Celeritas Brewing, our love for these concepts drives us in our exploration of the world of beer. We want to pursue unattainable dreams, and explore and connect to other cultures through our homebrewing adventures.</p>
-            <p class="lead">Celeritas Brewing was established in Austin, TX in 2013. a hop head (Katie) and a farmhouse funkmaster (Derek) came together to create backyard brews. Coincidentally, they also happened to be married.</p>
+              <i>c</i>&nbsp in physics refers to the speed of light, or 299,792,458 meters per second, the universal speed limit. The letter <i>c</i> was connected to the latin word <i>celeritas</i>, or swiftness, by the great science fiction author Isaac Asimov in 1959. In the minds of physicists and science fiction authors, the speed of light represents something sacred. In physics, it is an unattainable dream for humans to travel at this speed, that according to Einstein would cause time itself to warp around us. In fiction, travelling at this speed has provided a gateway to the far reaches of the universe, and a connection to other intelligences. At Celeritas Brewing, our love for these concepts drives us in our exploration of the world of beer. We want to pursue unattainable dreams, and explore and connect to other cultures through our homebrewing adventures.
+            </p>
           </div>
+          <div class="col-md-2">
+            <br><br><br><br>
+            <i class="fa fa-flask" style="font-size: 12em"></i>
+          </div>
+          <!--
           <div class="col-md-5">
             <img class="featurette-image img-responsive" src="../img/hops.png" alt="hops">
           </div>
           <div class="col-md-5">
             <img class="featurette-image img-responsive" src="../img/beer.jpg" alt="beer">
           </div>
+          -->
         </div>
       </div>
     </div>
 
     <hr class="featurette-divider">
-    <div class="process">
+    <div class="process" id="process">
       <div class="container marketing">
-        <div class="row featurette" id="process">
+        <div class="row featurette">
           <div class="col-md-9">
             <h2 class="featurette-heading">the process</h2>
-            <h1>
-  	          <span class="glyphicon glyphicon-tint"></span>
-  	          <span class="glyphicon glyphicon-leaf"></span>
-  	          <span class="glyphicon glyphicon-fire"></span>
-  	          <span class="glyphicon glyphicon-dashboard"></span>
-  	          <span class="glyphicon glyphicon-filter"></span>
-            </h1>
-            <p class="lead">We hope to expand our production in the coming year. Come on over and enjoy some nerd-themed brews!</p>
+            <row>
+              <i class="glyphicon glyphicon-tint" style="font-size: 4em; margin: 20px 25px"></i>
+              <i class="glyphicon glyphicon-leaf" style="font-size: 4em; margin: 20px 25px"></i>
+              <i class="glyphicon glyphicon-fire" style="font-size: 4em; margin: 20px 25px"></i>
+              <i class="glyphicon glyphicon-dashboard" style="font-size: 4em; margin: 20px 25px"></i>
+              <i class="glyphicon glyphicon-filter" style="font-size: 4em; margin: 20px 25px"></i>
+              <i class="fa fa-arrow-right" style="font-size: 4em; margin: 20px 25px"></i>
+              <i class="fa fa-beer" style="font-size: 4em; margin: 20px 25px"></i>
+            </row>
+            <row>
+              <p class="lead">We hope to expand our production in the coming year. Come on over and enjoy some nerd-themed brews!</p>
+            </row>
           </div>
+          <!--
           <div class="col-md-5">
             <img class="featurette-image img-responsive" src="../img/groupshot.png" alt="group">
           </div>
@@ -197,19 +222,20 @@
            <div class="col-md-5">
             <img class="featurette-image img-responsive" src="../img/derek-secondary.png" alt="derek secondary">
           </div>
+          -->
         </div>
       </div>
     </div>
 
     <hr class="featurette-divider">
-    <div class="contact">
+    <div class="contact" id="contact">
       <div class="container marketing">
-        <div class="row featurette" id="contact">
+        <div class="row featurette">
           <div class="col-md-7">
             <h2 class="featurette-heading">
               contact us 
-              <span class="glyphicon glyphicon-envelope"></span> 
               <br> 
+              <i class="fa fa-paper-plane-o" style="font-size: 1em; margin: 5px 20px"></i>
               katie@katieensign.com
             </h2>
           </div>
