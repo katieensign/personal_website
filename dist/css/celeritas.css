@@ -51,12 +51,13 @@ footer {
   border-color: transparent;
 }
 .navbar-wrapper .navbar-brand {
-  font-size: 50px;
+  font-size: 3em;
+  height: 1em;
   font-weight: 300;
 }
 
 .navbar-wrapper .navbar-nav {
-  font-size: 30px;
+  font-size: 2em;
   font-weight: 300;
 }
 
@@ -114,7 +115,7 @@ footer {
 }
 
 .carousel-indicators li {
-  border: 1px solid #EBE6C5;
+  border: 2px solid #EBE6C5;
 }
 
 /* MARKETING CONTENT
@@ -127,7 +128,7 @@ footer {
 }
 
 /* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
+.marketing .col-md-4 {
   margin-bottom: 20px;
   text-align: center;
 }
@@ -161,7 +162,7 @@ footer {
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
-@media (min-width: 768px) {
+@media (min-width: 768px) {f
 
   /* Remove the edge padding needed for mobile */
   .marketing {
